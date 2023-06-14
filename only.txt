@@ -2,7 +2,7 @@
 git branch develop可以创建分支
 git checkout develop 可以切换分支
 git branch -d 删除合并的分支
-git branch -D 删除为何并的分支
+git branch -D 删除未合并的分支
 git stash 可以暂时保存更改
 git stash pop 可以恢复
 git log 查看提交信息
@@ -13,4 +13,3 @@ git rm --cached (html) 从暂存区删除
 git checkout (html)  从暂存区取出,对工作区的文件进行覆盖
 git reset --hard 可以恢复提交节点
 git remote add (别名) +地址
-git 
